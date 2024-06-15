@@ -1,0 +1,14 @@
+1) to shift in a new or existing database
+     use databasename 
+2) to check all the collections
+    show collections
+3)to check all the database
+   show dbs
+4) to create a new collections
+db.createCollection("collectionname")
+5) to insert a single object in collection
+db.collectionname.insertOne({})
+6)to insert many object in a collection
+db.collectionname.insertMany({},{})
+7)to drop a collection
+db.collectionname.drop()
